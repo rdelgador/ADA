@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1458178500 source:c:\users\alumno-g\desktop\adalab\labada1\insertsort.cpp
+
+1458179448 source:c:\users\alumno-g\desktop\adalab\labada1\main.cpp
+	<iostream>
+	<vector>
+	"insertsort.h"
+
+1458179545 c:\users\alumno-g\desktop\adalab\labada1\insertsort.h
+	<iostream>
+	<vector>
+
