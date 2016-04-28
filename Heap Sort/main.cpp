@@ -43,6 +43,18 @@ void printA(int A[], int n)
     cout<<endl;
 }
 
+int heap_extract_max(int A[])
+{
+    int n = sizeof(A)/sizeof(A[0]);
+    if(n<1)
+        return -1;
+    int m=A[1];
+    A[1] = A[n];
+    n=n-1;
+    max_heapify(A,n,1);
+    return m;
+}
+
 int main()
 {
     int A[] = {4,1,3,2,16,9,10,14,8,7};
